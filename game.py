@@ -50,7 +50,7 @@ def play_game():
 
     if choice == "explore":
         choice = explore_surroundings()
-        if choice == "open":
+        if choice == "close":
             open_treasure_chest()
         elif choice == "leave":
             delay_print("You decide to leave the treasure chest behind.")
